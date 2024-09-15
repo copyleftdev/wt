@@ -35,7 +35,6 @@ func NewTagsConfig(includeTagsStr, excludeTagsStr string) *TagsConfig {
 	includeTags := parseTagList(includeTagsStr)
 	excludeTags := parseTagList(excludeTagsStr)
 
-	// Apply defaults if no tags are specified
 	if len(includeTags) == 0 {
 		includeTags = make(map[string]bool)
 		for _, tag := range defaultIncludeTags {

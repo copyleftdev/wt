@@ -14,7 +14,6 @@ var unwantedClassOrIDSubstrings = []string{
 	"subscribe", "breadcrumb", "advertisement", "ad-", "ads",
 }
 
-// ExtractTextFromHTML extracts text from the provided HTML content based on the configuration.
 func ExtractTextFromHTML(htmlContent string, cfg *config.Config) (string, error) {
 	doc, err := html.Parse(strings.NewReader(htmlContent))
 	if err != nil {

@@ -1,5 +1,7 @@
 # wt - Web Text Extractor
 
+![Dope Robot Character](dope.png)
+
 **wt** is a command-line tool written in Go that extracts meaningful text content from web pages. It fetches a given URL, processes the HTML content, and outputs clean text by excluding unwanted elements like navigation menus, footers, headers, and advertisements. The tool is designed with sensible defaults but allows customization through command-line options.
 
 ## Features
