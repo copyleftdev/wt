@@ -101,11 +101,14 @@ Use **wt** to preprocess text before feeding it into Fabric AI:
 
 ## Use Cases
 
-- **Content Extraction**: Extract articles or blog posts from web pages without ads or navigation links.
-- **Text Analysis**: Preprocess web content for natural language processing tasks.
-- **Data Mining**: Gather textual data from websites for analysis or machine learning.
-- **Integration with AI Tools**: Pipe extracted text into AI applications like Fabric AI for further processing.
-- **Web Scraping**: Automate the collection of textual content from multiple web pages.
+- **Content Extraction**: Quickly extract the main content of a web page, such as articles or blog posts, while removing ads, navigation links, and other extraneous elements.
+- **SEO and Content Analysis**: Analyze the textual content of web pages for SEO purposes, keyword density, and content quality without the distraction of non-content elements.
+- **Web Scraping**: Automate the collection of textual data from web pages to build datasets for machine learning models or research.
+- **Preprocessing for AI Applications**: Preprocess text before using it in natural language processing (NLP) tasks or feeding it into AI models, such as for sentiment analysis, summarization, or categorization.
+- **Data Mining**: Extract meaningful text data from websites for data mining or analytical purposes, such as market research, competitive analysis, or trend identification.
+- **Accessibility Enhancement**: Create accessible versions of web content by stripping out unnecessary HTML elements and focusing on the main content, which can be converted to formats like Braille, speech, or plain text.
+- **Integration with Automation Tools**: Seamlessly integrate with automation scripts and tools to process and handle web content in a standardized format, aiding in tasks like monitoring, alerting, and reporting.
+- **Research and Archival**: Use for archiving web content, retaining only the meaningful text while eliminating unwanted elements, thus saving storage and improving readability.
 
 ## How It Works
 
